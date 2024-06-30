@@ -1,0 +1,365 @@
+body {
+ background-color: PaleTurquoise;
+}
+
+#clicker {
+ background-color: DarkTurquoise;
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+ position: absolute;
+ left: 75px;
+ top: 115px;
+ border: 4px solid black;
+}
+
+#clicker:active {
+ opacity: 0.7;
+ scale: 1.05;
+}
+
+#balBox {
+ background-color: DarkTurquoise;
+ width: 350px;
+ height: 65px;
+ border-radius: 15px;
+ position: absolute;
+ left: 20px;
+ border: 3px solid black;
+
+}
+
+#balance {
+ position: absolute;
+ font-size: 25px;
+ top: -15px;
+ left: 120px;
+}
+
+#forClickText {
+ position: absolute;
+ top: 15px;
+ left: 50px;
+}
+
+#perSecondText {
+ position: absolute;
+ top: 15px;
+ left: 175px;
+}
+
+#shop {
+ background-color: DarkTurquoise;
+ width: 350px;
+ height: 75px;
+ position: absolute;
+ top: 400px;
+ left: 20px;
+ border-radius: 10px;
+ border: 3px solid black;
+}
+
+#shopImg {
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ left: 10px;
+ top: 7px;
+}
+
+#shopText {
+ position: absolute;
+ left: 50%;
+ font-size: 20px;
+ bottom: -20px;
+ color: white;
+}
+
+#tgBox {
+ background-color: DarkTurquoise;
+ width: 350px;
+ height: 75px;
+ position: absolute;
+ top: 500px;
+ left: 20px;
+ border-radius: 10px;
+ border: 3px solid black;
+}
+
+#tg {
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ left: 10px;
+ top: 7px;
+}
+
+#tgInf {
+ position: absolute;
+ left: 85px;
+ font-size: 20px;
+ bottom: -20px;
+ color: white;
+}
+
+#perehod {
+ background-color: DarkTurquoise;
+ width: 350px;
+ height: 75px;
+ position: absolute;
+ top: 600px;
+ left: 20px;
+ border-radius: 10px;
+ border: 3px solid black;
+}
+
+#perehodText {
+ position: absolute;
+ right: 95px;
+ font-size: 23px;
+ bottom: -5px;
+ color: white;
+}
+
+#slot {
+ width: 60px;
+ position: absolute;
+ left: 10px;
+ top: 7px;
+}
+
+#exit {
+ width: 350px;
+ height: 60px;
+ background-color: DarkTurquoise;
+ text-align: center;
+ border: 3px solid black;
+ border-radius: 10px;
+ position: absolute;
+ left: 20px;
+ bottom: 25px;
+}
+
+#exitText {
+ color: white;
+ font-size: 25px;
+ position: absolute;
+ bottom: -43px;
+ left: 135px;
+}
+
+#name {
+ width: 350px;
+ height: 60px;
+ background-color: DarkTurquoise;
+ text-align: center;
+ border: 3px solid black;
+ border-radius: 10px;
+ position: absolute;
+ left: 20px;
+ top: 25px;
+}
+
+#nameText {
+ color: white;
+ text-align: center;
+ font-size: 31px;
+ margin: 0;
+ margin-top: 10px;
+}
+
+#bidBox {
+ background-color: DarkTurquoise;
+ width: 350px;
+ height: 120px;
+ position: absolute;
+ left: 20px;
+ top: 125px;
+ border: 3px dashed black;
+}
+
+#bidText {
+ font-size: 23px;
+ margin-top: 10px;
+ text-align: center;
+}
+
+#bid10 {
+ background-color: MediumTurquoise;
+ height: 70px;
+ width: 64px;
+ position: absolute;
+ top: 40px;
+ left: 12px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+#bid10Text {
+ font-size: 20px;
+ position: absolute;
+ left: 13px;
+ top: -22px;
+}
+
+#bid25 {
+ background-color: MediumTurquoise;
+ height: 70px;
+ width: 64px;
+ position: absolute;
+ top: 40px;
+ left: 77px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+#bid25Text {
+ font-size: 20px;
+ position: absolute;
+ left: 13px;
+ top: -22px;
+}
+
+#bid50 {
+ background-color: MediumTurquoise;
+ height: 70px;
+ width: 64px;
+ position: absolute;
+ top: 40px;
+ left: 142px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+#bid50Text {
+ font-size: 20px;
+ position: absolute;
+ left: 13px;
+ top: -22px;
+}
+
+#bid75 {
+ background-color: MediumTurquoise;
+ height: 70px;
+ width: 64px;
+ position: absolute;
+ top: 40px;
+ right: 78px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+#bid75Text {
+ font-size: 20px;
+ position: absolute;
+ left: 13px;
+ top: -22px;
+}
+
+#bid100 {
+ background-color: MediumTurquoise;
+ height: 70px;
+ width: 64px;
+ position: absolute;
+ top: 40px;
+ right: 13px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+#bid100Text {
+ font-size: 20px;
+ position: absolute;
+ left: 10px;
+ top: -22px;
+}
+
+#shop1 {
+ background-color: DarkTurquoise;
+ width: 150px;
+ height: 100px;
+ position: absolute;
+ left: 7%;
+ border: 2px solid black;
+ top: 110px;
+}
+
+#name1 {
+ margin: 0px;
+ margin-top: 5px;
+ font-size: 20px;
+ text-align: center;
+}
+
+#info1 {
+ color: rgba(0, 0, 0, 0.5);
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}
+
+#price1Text {
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}
+
+#shop2 {
+ background-color: DarkTurquoise;
+ width: 150px;
+ height: 100px;
+ position: absolute;
+ left: 52%;
+ border: 2px solid black;
+ top: 110px;
+}
+
+#name2 {
+ margin: 0px;
+ margin-top: 5px;
+ font-size: 20px;
+ text-align: center;
+}
+
+#info2 {
+ color: rgba(0, 0, 0, 0.5);
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}
+
+#price2Text {
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}
+
+#shop3 {
+ background-color: DarkTurquoise;
+ width: 150px;
+ height: 100px;
+ position: absolute;
+ left: 7%;
+ border: 2px solid black;
+ top: 240px;
+}
+
+#name3 {
+ margin: 0px;
+ margin-top: 5px;
+ font-size: 20px;
+ text-align: center;
+}
+
+#info3 {
+ color: rgba(0, 0, 0, 0.5);
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}
+
+#price3Text {
+ text-align: center;
+ margin: 0px;
+ margin-top: 5px;
+}

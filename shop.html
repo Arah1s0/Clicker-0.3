@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body onload="shop()">
+  <div id="name">
+   <h6 id="nameText">МАГАЗИН</h6>
+  </div>
+  
+  <div id="shop1" onclick="addClick()">
+   <h6 id="name1">Кликер</h6>
+   <h6 id="info1">+1 к клику <br/>За каждое<br/>Улучшение</h6>
+   <h6 id="price1Text">Цена: <span id="price_1">1000</span></h6>
+  </div>
+  
+  <div id="shop2" onclick="addFarm()">
+   <h6 id="name2">Ферма</h6>
+   <h6 id="info2">+1 в секунду <br/>За каждое<br/>Улучшение</h6>
+   <h6 id="price2Text">Цена: <span id="price_2">200</span></h6>
+  </div>
+  
+  <div id="shop3" onclick="reduce()">
+   <h6 id="name3">Сокращение</h6>
+   <h6 id="info3">Сокращает цены<br/>в 2 раза</h6>
+   <h6 id="price3Text">Цена: <span id="price_3">5М</span></h6>
+  </div>
+  
+  <a href="index.html">
+   <div id="exit" onclick="exit()">
+    <h6 id="exitText">Выход</h6>
+   </div>
+  </a>
+  <script src="script.js"></script>
+ </body>
+</html>
